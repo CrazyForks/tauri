@@ -1,5 +1,17 @@
 # Changelog
 
+## \[2.7.4]
+
+### Performance Improvements
+
+- [`ce98d87ce`](https://www.github.com/tauri-apps/tauri/commit/ce98d87ce0aaa907285852eb80691197424e03c3) ([#14474](https://www.github.com/tauri-apps/tauri/pull/14474) by [@Tunglies](https://www.github.com/tauri-apps/tauri/../../Tunglies)) refactor: remove needless collect. No user facing changes.
+- [`ee3cc4a91`](https://www.github.com/tauri-apps/tauri/commit/ee3cc4a91bf1315ecaefe90f423ffd55ef6c40db) ([#14475](https://www.github.com/tauri-apps/tauri/pull/14475) by [@Tunglies](https://www.github.com/tauri-apps/tauri/../../Tunglies)) perf: remove needless clones in various files for improved performance. No user facing changes.
+
+### Dependencies
+
+- Upgraded to `tauri-macos-sign@2.3.1`
+- [`b5ef603d8`](https://www.github.com/tauri-apps/tauri/commit/b5ef603d84bd8044625e50dcfdabb099b2e9fdd9) ([#14478](https://www.github.com/tauri-apps/tauri/pull/14478) by [@Legend-Master](https://www.github.com/tauri-apps/tauri/../../Legend-Master)) Updated NSIS from 3.8 to 3.11
+
 ## \[2.7.3]
 
 ### Enhancements
